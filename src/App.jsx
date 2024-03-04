@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold ">Hello developers</h1>
+      <h1 className="text-3xl font-bold ">Brain Booster</h1>
     </>
   );
 }

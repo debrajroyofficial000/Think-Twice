@@ -1,0 +1,158 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "url": "../src/assets/Naruto.jpg",
+      "name": "Naruto"
+    },
+    {
+      "id": 2,
+      "url": "../src/assets/Suske.jpg",
+      "name": "Suske"
+    },
+    {
+      "id": 3,
+      "url": "../src/assets/Hinata.jpg",
+      "name": "Hinata"
+    },
+    {
+      "id": 4,
+      "url": "../src/assets/Kakashi.jpg",
+      "name": "Kakashi"
+    },
+    {
+      "id": 5,
+      "url": "../src/assets/Itachi.jpg",
+      "name": "Itachi"
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "url": "../src/assets/Naruto.jpg",
+      "name": "Naruto"
+    },
+    {
+      "id": 2,
+      "url": "../src/assets/Suske.jpg",
+      "name": "Suske"
+    },
+    {
+      "id": 3,
+      "url": "../src/assets/Hinata.jpg",
+      "name": "Hinata"
+    },
+    {
+      "id": 4,
+      "url": "../src/assets/Kakashi.jpg",
+      "name": "Kakashi"
+    },
+    {
+      "id": 5,
+      "url": "../src/assets/Itachi.jpg",
+      "name": "Itachi"
+    },
+    {
+      "id": 6,
+      "url": "../src/assets/Minato.jpg",
+      "name": "Minato"
+    },
+    {
+      "id": 7,
+      "url": "../src/assets/Gara.jpg",
+      "name": "Gara"
+    },
+    {
+      "id": 8,
+      "url": "../src/assets/Konan.jpg",
+      "name": "Konan"
+    },
+    {
+      "id": 9,
+      "url": "../src/assets/Deidara.jpg",
+      "name": "Deidara"
+    },
+    {
+      "id": 10,
+      "url": "../src/assets/Obito.jpg",
+      "name": "Obito"
+    }
+  ],
+  "hard": [
+    {
+      "id": 1,
+      "url": "../src/assets/Naruto.jpg",
+      "name": "Naruto"
+    },
+    {
+      "id": 2,
+      "url": "../src/assets/Suske.jpg",
+      "name": "Suske"
+    },
+    {
+      "id": 3,
+      "url": "../src/assets/Hinata.jpg",
+      "name": "Hinata"
+    },
+    {
+      "id": 4,
+      "url": "../src/assets/Kakashi.jpg",
+      "name": "Kakashi"
+    },
+    {
+      "id": 5,
+      "url": "../src/assets/Itachi.jpg",
+      "name": "Itachi"
+    },
+    {
+      "id": 6,
+      "url": "../src/assets/Minato.jpg",
+      "name": "Minato"
+    },
+    {
+      "id": 7,
+      "url": "../src/assets/Gara.jpg",
+      "name": "Gara"
+    },
+    {
+      "id": 8,
+      "url": "../src/assets/Konan.jpg",
+      "name": "Konan"
+    },
+    {
+      "id": 9,
+      "url": "../src/assets/Deidara.jpg",
+      "name": "Deidara"
+    },
+    {
+      "id": 10,
+      "url": "../src/assets/Obito.jpg",
+      "name": "Obito"
+    },
+    {
+      "id": 11,
+      "url": "../src/assets/Zetsu.jpg",
+      "name": "Zetsu"
+    },
+    {
+      "id": 12,
+      "url": "../src/assets/Kisame.jpg",
+      "name": "Kisame"
+    },
+    {
+      "id": 13,
+      "url": "../src/assets/Orochimaru.jpg",
+      "name": "Orochimaru"
+    },
+    {
+      "id": 14,
+      "url": "../src/assets/Sasori.jpg",
+      "name": "Sasori"
+    },
+    {
+      "id": 15,
+      "url": "../src/assets/Kankuro.jpg",
+      "name": "Kankuro"
+    }
+  ]
+}
