@@ -15,8 +15,18 @@ function CustomUserProvider({ children }) {
     setUser({ ...user, username: name });
   }
 
+  function addAllItems(items) {
+    setAllItems(items);
+  }
+
+  function addUserItems(item) {
+    setUserItems([...userItems, item]);
+  }
+
   return (
-    <UserProvider value={{ user, addUser, allItems, userItems }}>
+    <UserProvider
+      value={{ user, addUser, allItems, userItems, addAllItems, addUserItems }}
+    >
       {children}
     </UserProvider>
   );

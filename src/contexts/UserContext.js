@@ -9,6 +9,8 @@ export const userContext = createContext({
   addUser: () => {},
   allItems: [],
   userItems: [],
+  addUserItems: () => {},
+  addAllItems: () => {},
 });
 
 export const UserProvider = userContext.Provider;

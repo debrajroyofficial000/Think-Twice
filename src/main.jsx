@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <EasyLevel />,
   },
   {
-    path: "/intermediate",
+    path: "/medium",
     element: <MediumLevel />,
   },
   {
