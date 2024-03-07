@@ -5,12 +5,12 @@ export const userContext = createContext({
     maxScore: 0,
     minScore: 0,
     score: 0,
+    matchWon: false,
+    matchLoose: false,
   },
-  addUser: () => {},
-  allItems: [],
+  setUser: () => {},
   userItems: [],
-  addUserItems: () => {},
-  addAllItems: () => {},
+  setUserItems: () => {},
 });
 
 export const UserProvider = userContext.Provider;
