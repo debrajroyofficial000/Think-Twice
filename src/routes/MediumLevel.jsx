@@ -1,5 +1,7 @@
+import Game from "../components/Game";
+
 function MediumLevel() {
-  return <div>MediumLevel</div>;
+  return <Game url={"medium"} />;
 }
 
 export default MediumLevel;

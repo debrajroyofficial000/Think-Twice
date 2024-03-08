@@ -1,5 +1,7 @@
+import Game from "../components/Game";
+
 function HardLevel() {
-  return <div>HardLevel</div>;
+  return <Game url={"hard"} />;
 }
 
 export default HardLevel;
