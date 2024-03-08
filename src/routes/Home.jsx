@@ -4,13 +4,13 @@ import { useState } from "react";
 
 function Home() {
   const levels = ["easy", "medium", "hard"];
-  const { addUser } = useUser();
+  const { setUser, user } = useUser();
 
   const [name, setName] = useState("");
 
   const handleUserName = (e) => {
     e.preventDefault();
-    addUser(name);
+    setUser({ ...user, username: name });
     setName("");
   };
 

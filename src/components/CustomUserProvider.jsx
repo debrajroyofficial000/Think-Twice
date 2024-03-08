@@ -7,14 +7,10 @@ function CustomUserProvider({ children }) {
     maxScore: 0,
     minScore: 0,
     score: 0,
-    matchWon: false,
-    matchLoose: false,
+    Win: false,
+    Fail: false,
   });
   const [userItems, setUserItems] = useState([]);
-
-  // function addUserItems(item) {
-  //   setUserItems([...userItems, item]);
-  // }
 
   return (
     <UserProvider value={{ user, setUser, userItems, setUserItems }}>
