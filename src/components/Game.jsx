@@ -33,22 +33,26 @@ function Game({ url }) {
   if (user.Win === true) return <MatchStatus status="win" />;
 
   return (
-    <div>
-      {" "}
-      <h2>
-        {user.username}'s Score : {user.score}
-      </h2>
-      <section className="grid grid-cols-5 gap-4">
-        {data.map((item) => (
-          <div
-            key={item.id}
-            className="max-w-[300px] w-full border-4 overflow-hidden"
-            onClick={() => handleUserClick(item.id)}
-          >
-            <img src={item.url} className="m-auto block max-w-full" />
-          </div>
-        ))}
-      </section>
+    <div className="bg-[#870404] min-h-screen">
+      <div className="container mx-auto p-4">
+        <h2 className="text-3xl font-bold mb-4">
+          {user.username}'s Score : {user.score}
+        </h2>
+        <section className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          {data.map((item) => (
+            <div
+              key={item.id}
+              className="overflow-hidden"
+              onClick={() => handleUserClick(item.id)}
+            >
+              <img
+                src={item.url}
+                className="m-auto block w-full hover:shadow-md h-full"
+              />
+            </div>
+          ))}
+        </section>
+      </div>
     </div>
   );
 }

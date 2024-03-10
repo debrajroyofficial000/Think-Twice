@@ -10,7 +10,7 @@ function Home() {
 
   const handleUserName = (e) => {
     e.preventDefault();
-    setUser({ ...user, username: name });
+    if (name.length > 0) setUser({ ...user, username: name });
     setName("");
   };
 
@@ -36,7 +36,7 @@ function Home() {
                 />
                 <button
                   type="submit"
-                  className="w-full py-2 px-4 text-xl font-bold bg-black text-white my-2 rounded-md hover:bg-[#342c2c]"
+                  className="w-full py-2 px-4 text-xl font-bold bg-black text-white my-2 rounded-md hover:bg-[#870404]"
                 >
                   Submit
                 </button>
@@ -56,7 +56,7 @@ function Home() {
           {levels.map((level) => (
             <div
               key={level}
-              className="py-2 px-4 border border-white hover:bg-[#342c2c] hover:text-white my-4 hover:shadow-lg text-black"
+              className="py-2 px-4 border border-white hover:bg-[#870404] hover:text-white my-4 hover:shadow-lg text-black"
             >
               <Link to={`/${level}`} className="font-bold block text-inherit">
                 {level}
