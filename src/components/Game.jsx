@@ -35,7 +35,9 @@ function Game({ url }) {
   return (
     <div>
       {" "}
-      <h2>Your Score : {user.score}</h2>
+      <h2>
+        {user.username}'s Score : {user.score}
+      </h2>
       <section className="grid grid-cols-5 gap-4">
         {data.map((item) => (
           <div
